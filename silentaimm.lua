@@ -1,5 +1,5 @@
 -- da hood private silent aim
-local Aiming = loadstring(game:HttpGet("https://pastebin.com/raw/uM60k6zn"))()
+local Aiming = loadstring(game:HttpGet("https://raw.githubusercontent.com/Spaaarkyz/dh/main/gis.lua"))()
 Aiming.TeamCheck(false)
 
 local Workspace = game:GetService("Workspace")
