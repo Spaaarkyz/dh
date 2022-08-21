@@ -9,7 +9,7 @@ Aiming.FOV = getgenv().FOV --ex (size of fov 0 - 1000)
 Aiming.FOVSides = getgenv().FOVSides --ex (0 - 12 or indefinite)
 Aiming.HitChance = getgenv().Hitchance --ex (hitchance lol [0 - 100 or more like 110])
 Aiming.ShowFOV = getgenv().ShowFOV --ex (show fov, [true, or false])
-Aiming.FOVColour = getgenv().Aiming.FOVColour --ex (fov colour, [ = Color3fromRGB(0, 0, 0)] )
+Aiming.FOVColour = getgenv().FOVColour --ex (fov colour, [ = Color3fromRGB(0, 0, 0)] )
 -- [+]
 mouse.KeyDown:Connect(
     function(key)
