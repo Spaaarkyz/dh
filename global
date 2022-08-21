@@ -1,16 +1,3 @@
-getgenv().Key = "c"
-getgenv().Prediction = 0.11
-getgenv().Hitchance = 100
-getgenv().Parts = {"UpperTorso", "Head"}
-getgenv().FOV = 16
-getgenv().FOVSides = 0
-getgenv().ShowFOV = false
-getgenv().FOVColour = Color3.fromRGB(0, 0, 0)
-
-
-
-local hotkey = getgenv().Key --hotkey to toggle
-local mouse = game.Players.LocalPlayer:GetMouse()
 getgenv().autosetup = false -- or false
 -- [+]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Spaaarkyz/dh/main/silentaimm.lua"))()
@@ -21,15 +8,3 @@ Aiming.FOVSides = getgenv().FOVSides --ex (0 - 12 or indefinite)
 Aiming.HitChance = getgenv().Hitchance --ex (hitchance lol [0 - 100 or more like 110])
 Aiming.ShowFOV = getgenv().ShowFOV --ex (show fov, [true, or false])
 Aiming.FOVColour = getgenv().FOVColour --ex (fov colour, [ = Color3fromRGB(0, 0, 0)] )
--- [+]
-mouse.KeyDown:Connect(
-    function(key)
-        if key == hotkey then
-            if getgenv().Aiming.Enabled == true then
-                getgenv().Aiming.Enabled = false
-            else
-                getgenv().Aiming.Enabled = true
-            end
-        end
-    end
-)
