@@ -1,3 +1,14 @@
+getgenv().Key = "c"
+getgenv().Prediction = 0.11
+getgenv().Hitchance = 100
+getgenv().Parts = {"UpperTorso", "Head"}
+getgenv().FOV = 16
+getgenv().FOVSides = 0
+getgenv().ShowFOV = false
+getgenv().FOVColour = Color3.fromRGB(0, 0, 0)
+
+
+
 local hotkey = getgenv().Key --hotkey to toggle
 local mouse = game.Players.LocalPlayer:GetMouse()
 getgenv().autosetup = false -- or false
