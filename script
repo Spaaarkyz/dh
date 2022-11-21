@@ -27,7 +27,7 @@ mouse.KeyDown:Connect(
 
 -- [+]
 
-getgenv().DaHoodSettings.Prediction = 0.11627
+getgenv().DaHoodSettings.Prediction = 0.11
 getgenv().Aiming.TargetPart = {"UpperTorso", "Head"}
 getgenv().Aiming.FOV = 16
 getgenv().Aiming.FOVSides = 0
