@@ -1,0 +1,26 @@
+_G.wl_key = "0deae93acfe9f2bdb4c19538133fe222b3553682"
+loadstring(game:HttpGet('https://raw.githubusercontent.com/lextra/varity/main/winning'))()
+
+-- [ Streamable Settings ] --
+getgenv().Varity.SilentAim = true -- replace false with true to enable
+getgenv().Varity.HotKey = "B" -- replace B with any bind
+getgenv().Varity.AimLock = false -- replace false with true to enable
+getgenv().Varity.AimLockKeybind = "V" -- replace V with any bind
+getgenv().Varity.Resolver = false -- replace false with true to enable
+getgenv().Varity.Prediction = 0.11 -- replace 0.125 with prediction / set
+getgenv().xeno.TargetPart = {"Head", "LeftHand", "RightHand", "LeftLowerArm", "RightLowerArm", "LeftUpperArm", "RightUpperArm", "LeftFoot", "LeftLowerLeg", "UpperTorso", "HumanoidRootPart", "LeftUpperLeg", "RightLowerLeg", "RightFoot", "LowerTorso"}
+getgenv().xeno.FOV = 25 -- replace 20 with any size of fov
+getgenv().xeno.FOVSides = 0 -- replace 0 with any side of fov
+getgenv().xeno.HitChance = 90 
+getgenv().xeno.ShowFOV = false -- replace false with true to enable
+getgenv().xeno.FOVColour = Color3.fromRGB(0,0,0)
+
+
+-- [ Tracer/Smooth Lock Settings ] --
+getgenv().Settings = {
+    Key = "C", -- replace V with any bind
+    Enabled = true, -- replace true with false to disable
+    Pred = 5, -- replace 5 with prediction / set
+    Part = "HumanoidRootPart",
+    Smoothness = 0.160 -- replace 0.012 with smoothness
+}
